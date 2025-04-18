@@ -21,6 +21,7 @@
     "process": "npm:bare-process",
     "url": "npm:bare-url",
     "util": "npm:bare-utils",
-    "v8-to-istanbul": "^9.3.0"
+    "v8-to-istanbul": "^9.3.0",
+    "which-runtime": "^1.2.1"
   }
 }
