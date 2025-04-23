@@ -1,5 +1,5 @@
 # bare-v8-to-istanbul
-Wrapper to v8-to-istanbul to make it work with Bare
+Wrapper for v8-to-istanbul to make it work with Bare
 
 ```bash
 npm i bare-v8-to-istanbul
