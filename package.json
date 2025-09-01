@@ -1,6 +1,6 @@
 {
   "name": "bare-v8-to-istanbul",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for v8-to-istanbul that works with Bare",
   "license": "Apache-2.0",
   "author": "Holepunch",
