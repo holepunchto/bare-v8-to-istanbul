@@ -5,10 +5,6 @@
   "license": "Apache-2.0",
   "author": "Holepunch",
   "main": "index.js",
-  "files": [
-    "index.js",
-    "bare-noop"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard"
@@ -16,7 +12,7 @@
   "dependencies": {
     "bare-assert": "^1.0.2",
     "bare-fs": "^4.1.2",
-    "bare-noop": "file://./bare-noop",
+    "bare-module": "^6.1.2",
     "bare-path": "^3.0.0",
     "bare-process": "^4.2.0",
     "bare-url": "^2.1.5",
@@ -34,7 +30,7 @@
       "default": "fs"
     },
     "module": {
-      "bare": "bare-noop",
+      "bare": "bare-module",
       "default": "module"
     },
     "path": {
