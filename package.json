@@ -12,6 +12,7 @@
   "dependencies": {
     "bare-assert": "^1.0.2",
     "bare-fs": "^4.1.2",
+    "bare-module": "^6.1.2",
     "bare-path": "^3.0.0",
     "bare-process": "^4.2.0",
     "bare-url": "^2.1.5",
@@ -21,22 +22,32 @@
   },
   "imports": {
     "assert": {
-      "bare": "bare-assert"
+      "bare": "bare-assert",
+      "default": "assert"
     },
     "fs": {
-      "bare": "bare-fs"
+      "bare": "bare-fs",
+      "default": "fs"
+    },
+    "module": {
+      "bare": "bare-module",
+      "default": "module"
     },
     "path": {
-      "bare": "bare-path"
+      "bare": "bare-path",
+      "default": "path"
     },
     "process": {
-      "bare": "bare-process"
+      "bare": "bare-process",
+      "default": "process"
     },
     "url": {
-      "bare": "bare-url"
+      "bare": "bare-url",
+      "default": "url"
     },
     "util": {
-      "bare": "bare-utils"
+      "bare": "bare-utils",
+      "default": "util"
     }
   },
   "devDependencies": {
