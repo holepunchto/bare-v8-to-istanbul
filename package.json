@@ -26,25 +26,32 @@
   },
   "imports": {
     "assert": {
-      "bare": "bare-assert"
+      "bare": "bare-assert",
+      "default": "assert"
     },
     "fs": {
-      "bare": "bare-fs"
-    },
-    "path": {
-      "bare": "bare-path"
-    },
-    "process": {
-      "bare": "bare-process"
-    },
-    "url": {
-      "bare": "bare-url"
-    },
-    "util": {
-      "bare": "bare-utils"
+      "bare": "bare-fs",
+      "default": "fs"
     },
     "module": {
-      "bare": "bare-noop"
+      "bare": "bare-noop",
+      "default": "module"
+    },
+    "path": {
+      "bare": "bare-path",
+      "default": "path"
+    },
+    "process": {
+      "bare": "bare-process",
+      "default": "process"
+    },
+    "url": {
+      "bare": "bare-url",
+      "default": "url"
+    },
+    "util": {
+      "bare": "bare-utils",
+      "default": "util"
     }
   },
   "devDependencies": {
