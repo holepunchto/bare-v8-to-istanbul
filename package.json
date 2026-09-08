@@ -7,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "standard"
+    "format": "prettier --write .",
+    "lint": "prettier --check . && lunte"
   },
   "dependencies": {
     "bare-assert": "^1.0.2",
@@ -51,6 +52,8 @@
     }
   },
   "devDependencies": {
-    "standard": "^17.1.2"
+    "lunte": "^1.8.4",
+    "prettier": "^3.9.6",
+    "prettier-config-holepunch": "^2.0.0"
   }
 }

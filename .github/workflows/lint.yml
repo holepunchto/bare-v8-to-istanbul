@@ -1,22 +1,14 @@
-name: Run linter
+name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
 
 jobs:
   lint:
     runs-on: ubuntu-latest
+    name: Lint
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-
-      - name: Install dependencies
-        run: npm i
-
-      - name: Lint
-        run: npm run lint
+      - uses: holepunchto/actions/node-base@v1
+      - run: npm run lint
