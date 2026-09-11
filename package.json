@@ -1,6 +1,6 @@
 {
   "name": "bare-v8-to-istanbul",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wrapper for v8-to-istanbul that works with Bare",
   "license": "Apache-2.0",
   "author": "Holepunch",
@@ -55,5 +55,15 @@
     "lunte": "^1.8.4",
     "prettier": "^3.9.6",
     "prettier-config-holepunch": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-v8-to-istanbul.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-v8-to-istanbul/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-v8-to-istanbul#readme"
 }
